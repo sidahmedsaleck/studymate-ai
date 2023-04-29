@@ -31,7 +31,7 @@ class GenerateFlashcards(Resource):
         longtext = args['longText']
         lang = args['lang']
         tire = args['tire']
-        auth = args["authId"]
+        auth = args["auth"]
 
         # verifying the authId
         if not verifyAuth(auth):
@@ -40,7 +40,6 @@ class GenerateFlashcards(Resource):
                 'message':'auth token is not valid'},401
         
         
-
 
          # getting the number of chunks to use
         CHUNK_LIMIT = chunkLimit(tokenLimit(tire))

@@ -34,7 +34,7 @@ class GenerateQuiz(Resource):
         longtext = args['longText']
         lang = args['lang']
         tire = args['tire']
-        auth = args["authId"]
+        auth = args["auth"]
 
         # verifying the authId
         if auth != os.environ["STUDYMATE_AUTH"]:
