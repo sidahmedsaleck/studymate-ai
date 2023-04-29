@@ -11,14 +11,14 @@ This is the Flask RESTful API for the AI part of the StudyMate app backend. The 
 
 #### 🏠 Home 
 
-```http
+```
   GET /
 ```
 
 
 #### 📕 Post A New Summary
 
-```http
+```
   POST /generatesummary
 ```
 
@@ -34,7 +34,7 @@ This is the Flask RESTful API for the AI part of the StudyMate app backend. The 
 
 #### 🃟 Post A New flashcards
 
-```http
+```
   POST /generateflashcards
 ```
 
@@ -48,7 +48,7 @@ This is the Flask RESTful API for the AI part of the StudyMate app backend. The 
 
 #### 🤔 Post A New quiz
 
-```http
+```
   POST /generatequiz
 ```
 
