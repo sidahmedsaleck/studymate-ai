@@ -1,11 +1,11 @@
 
 from flask import Flask ,request
-from flask_restful import Api , Resource
-from api.controllers.generateSummary import GenerateSummary
-from api.controllers.generarteFlashcards import GenerateFlashcards
-from api.controllers.generateQuiz import GenerateQuiz
-from api.controllers.home import Home
-from api.controllers.all import All
+from flask_restful import Api , Resource 
+from controllers.generateSummary import GenerateSummary
+from controllers.generarteFlashcards import GenerateFlashcards
+from controllers.generateQuiz import GenerateQuiz
+from controllers.home import Home
+from controllers.all import All
 from flask_cors import CORS
 
 def create_app():
